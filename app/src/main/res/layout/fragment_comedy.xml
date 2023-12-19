@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComedyFragment">
+
+
+    <TextView
+        android:id="@+id/action_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Sinopsis film :  Sam Greenfield (Eva Noblizada) seorang perempuan tersial di muka Bumi ini, ia tak luput dari kesialan setiap harinya. Bagaimana tidak, ia mengalami itu sejak kecil, dimana ia tidak pernah menemukan keluarga dan harus tetap berada disebuah panti bernama Summerland Home for Girl. Hingga berusia 18 tahun, akhirnya ia keluar dari panti dan harus hidup mandiri. Tentu saja, kesialan masih terus mengikutinya. Ketika Sam ingin pergi, ia menemukan koin dan teringat pembicaraannya dengan Hazel mengenai koin keberuntungan.
+        Keesokkan harinya, hidup Sam berubah drastis. Ia berhasil bangun dengan tepat waktu dan berhasil membuat sandwich dan percaya bahwa itu adalah koin keberuntungan."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="948dp"
+        android:src="@drawable/luck" />
+</FrameLayout>

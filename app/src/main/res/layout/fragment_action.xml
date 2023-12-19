@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActionFragment">
+
+
+    <TextView
+        android:id="@+id/action_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Sinopis film : Film thriller yang menegangkan berlatar masa depan dystopian. Mengambil tempat di daerah yang penuh dengan kemiskinan, Joon Suk (Lee Je Hoon) ingin meninggalkan kota tersebut dan memulai hidup baru. Untuk itu, dia menyusun rencana kejahatan yang nekat. Tak sendirian, dia meminta bantuan tiga temannya untuk menjalankan rencana tersebut yaitu Ki Hoon (Choi Woo Shik), Jang Ho (Ahn Jae Hong) dan Sang Soo (Park Jung Min). Keempat pria ini mempertaruhkan segalanya untuk kesempatan hidup baru, namun semua berubah mengerikan saat mereka dikejar oleh seorang pria misterius bernama Han (Park Hae Soo)."
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="968dp"
+        android:src="@drawable/timetohunt" />
+</FrameLayout>

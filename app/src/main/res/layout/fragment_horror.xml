@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HorrorFragment">
+
+
+    <TextView
+        android:id="@+id/action_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Sinopsis film : mengisahkan tentang sekelompok warga yang selamat dari serangan zombie di Korea Selatan pada tahun 2016. Salah satunya adalah Jung Seok, mantan angkatan bersenjata yang berhasil menyelamatkan diri dari kawasan yang terinfeksi oleh zombie. Jung Seok harus kembali ke kawasan yang terinfeksi zombie untuk menyelesaikan sebuah misi dengan imbalan yang sangat besar.
+        Dalam perjalanannya, Jung Seok bertemu dengan beberapa orang yang masih terbebas dari infeksi zombie. Guna mengetahui keberadaan para zombie, Jung Seok mengetes dengan membunyikan klakson mobil. Saat menjalankan misi, Jung Seok juga menyelamatkan beberapa orang yang masih hidup dan terbebas dari infeksi zombie tapi malah terjebak di Peninsula, Semenanjung Korea."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="948dp"
+        android:src="@drawable/peninsula" />
+</FrameLayout>
